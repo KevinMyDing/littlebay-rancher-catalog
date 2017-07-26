@@ -41,6 +41,11 @@
       label: "Database password:"
       required: false
       type: "string"
+    - variable: "port"
+      description: "Web Host" 
+      label: "Host:"
+      required: true
+      type: "string"
 kong:
   retain_ip: true
   health_check:
